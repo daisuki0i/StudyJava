@@ -1,5 +1,4 @@
 public class Class5_class_HW1 {
-
 }
 
 class Message {
@@ -8,6 +7,12 @@ class Message {
     String receiver;
     String timeSent;
     boolean isRead;
+
+    Message() {
+        msgText = "Hello";
+        timeSent = "00:00";
+        isRead = false;
+    }
 
     Message(String msgText, String sender, String receiver, String timeSent) {
         this.msgText = msgText;

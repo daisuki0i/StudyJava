@@ -1,0 +1,118 @@
+Just the thought of learning to code can be very intimidating. The word code is mysterious by definition. It implies a technical form of communication that computers, and not humans, are meant to understand.
+
+One way many people start learning to code is by picking a popular programming language and jumping in head first with no direction. This could take the form of an online coding course, a tutorial project, or a random book purchase on a specific topic.
+
+Rarely do prospective developers start with a roadmap – a bird's eye view of the coding world that outlines a set of relevant programming concepts, languages, and tools that almost 100% of developers use every day.
+
+In this article, I propose one such roadmap. I do this by outlining 14 steps – each one discussing an essential concept, language, or tool – that professional developers use to write code, collaborate, and create professional projects.
+
+I meticulously chose these 14 steps based on my own personal journey learning to code, which spans almost 20 years.
+
+Part of the reason it took me so long to feel comfortable as a developer is that I would learn about specific topics without a broader context of the coding world.
+
+Each of the steps in this article discusses a "coding essential" – something that I believe is critical to at least know that it exists at the start of your coding journey.
+
+One final note before listing the steps in the roadmap: of course reading this article will not make you an expert programmer. It isn't meant to. The purpose of this article is to make you aware that each one of these topics exists, and hopefully give you a basic idea of how each one works so you can build on it intelligently going forward.
+
+14 Step Roadmap for Beginner Developers
+Familiarize Yourself with Computer Architecture and Data Basics
+Learn How Programming Languages Work
+Understand How the Internet Works
+Practice Some Command-Line Basics
+Build Up Your Text Editor Skills with Vim
+Take-up Some HTML
+Tackle Some CSS
+Start Programming with JavaScript
+Continue Programming with Python
+Further Your Knowledge with Java
+Track Your Code using Git
+Store Data Using Databases and SQL
+Read About Web Frameworks and MVC
+Play with Package Managers
+Without further ado, let's start at the top!
+
+1) Familiarize Yourself with Computer Architecture and Data Basics
+One of the wonderful things about modern programming languages is that they enable us to create fancy applications without worrying about the nitty-gritty details of the hardware behind the scenes (for the most part).
+
+This is called abstraction – the ability to work with higher-level tools (in this case programming languages) that simplify and narrow down the required scope of our understanding and skills.
+
+However, that doesn't mean it's useless to know the basics of the metal that your code is executing on. At the very least, being aware of a few tidbits will help you navigate workplace conversations about high CPU and memory usage.
+
+So, here is a bare minimum of computer architecture basics to get you started:
+
+Your computer's most important parts live on microchips (also known as integrated circuits).
+
+Microchips rely on an electrical component called a transistor to function. Transistors are tiny electrical switches that are either off (0) or on (1) at any given time. A single microchip can contain millions or billions of tiny transistors embedded on it.
+
+Most modern computers have a microchip called the Central Processing Unit (CPU). You can think of it as the computer’s brain. It handles most of the number crunching and logical tasks that the computer performs.
+
+Each CPU has something called an instruction set, which is a collection of binary (zeros and ones) commands that the CPU understands. Luckily, we don't really need to worry about these as software devs! That is the power of abstraction.
+
+If the CPU is the logical center of the brain, it is useful to have memory as well to store information temporarily or for the long term.
+
+Computers have Random Access Memory (RAM) as "working memory" (or short-term memory) to store information that is actively being used by running programs.
+
+RAM is made up of a collection of memory addresses, which can be used to store bits of data. In older languages like C, programmers do have access to working directly with memory addresses using a feature called pointers, but this is rare in more modern languages.
+
+Finally, we'll touch on a component you're surely familiar with – the hard drive. In our analogy of the brain, this represents long-term memory. A hard drive is an internal or external device that stores data that should persist even after the computer is turned off.
+
+Before moving on to more details about programming languages, let's spend a second talking about data. But what exactly do we mean by the word data?
+
+At a high level, we think of things like text documents, images, videos, emails, files, and folders. These are all high-level data structures that we create and save on our computers every day.
+
+But underneath the hood, a computer chip (like a CPU or RAM chip) has no idea what an "image" or a "video" is.
+
+From a chip’s perspective, all of these structures are stored as long sequences of ones and zeros. These ones and zeros are called bits.
+
+Bits are commonly stored in a set of eight at a time, known as a byte. A byte is simply a sequence of eight bits, such as 00000001, 01100110, or 00001111. Representing information in this way is called a binary representation.
+
+2) Learn How Programming Languages Work
+In the previous section, we mentioned that most computers rely on a CPU, and a CPU can understand a specific set of instructions in the form of ones and zeros.
+
+Therefore, we could theoretically write code that tells the CPU what to do by stringing together long sequences of ones and zeros in a form the CPU understands. Instructions written in binary form like this are called machine code.
+
+Sounds horrible to work with, doesn't it? Well it probably is, but I wouldn't know since I mostly use higher-level programming languages like JavaScript, Python, and Java.
+
+A higher-level programming language provides a set of human-readable keywords, statements, and syntax rules that are much simpler for people to learn, debug, and work with.
+
+Programming languages provide a means of bridging the gap between the way our human brains understand the world and the way computer brains (CPUs) understand the world.
+
+Ultimately, the code that we write needs to be translated into the binary instructions (machine code) that the CPU understands.
+
+Depending on the language you choose, we say that your code is either compiled or interpreted into machine code capable of being executed by your CPU. Most programming languages include a program called a compiler or an interpreter which performs this translation step.
+
+Just to give a few examples – JavaScript and Python are interpreted languages while Java is a compiled language. Whether a language is compiled or interpreted (or some combination of the two) has implications for developer convenience, error handling, performance, and other areas, but we won't get into those details here.
+
+3) Understand How the Internet Works
+Whatever type of programming you aspire to do, you'll run into situations where it helps to know how computers interact with each other. This typically occurs over the Internet.
+
+The Internet is nothing more than a global collection of connected computers. In other words, it is a global network. Each computer in the network agrees on a set of rules that enable them to talk to each other. To a computer, "talking" means transferring data.
+
+As we discussed in the previous section, all types of data – web pages, images, videos, emails, and so on – can all be represented as ones and zeros.
+
+Therefore, you can think of the Internet as a very large set of computers that can transfer ones and zeros amongst themselves, in a way that preserves the meaning of that data. The Internet is nothing more than a digital conversation medium.
+
+If the Internet is just a big conversation arena, let’s define the conversation participants.
+
+First, an analogy: most human conversations require at least two participants. In most cases, one person initiates the conversation and the other person responds, assuming they are both present and available.
+
+In Internet speak, the computer initiating the conversation is called the client. The computer responding or answering is called the server.
+
+For example, let’s say you open a web browser and go to "www.google.com". In this scenario, your web browser is the client. By extension, you can also think of the computer you are working on as the client.
+
+In a more abstract sense, YOU are the client because you are the one initiating the conversation. By typing "www.google.com" into the search bar and clicking <ENTER>, your browser is requesting to start a conversation with one of Google’s computers.
+
+Google’s computer is called the server. It responds by sending the data required to display Google’s web page in your browser. And voilà! Google’s web page appears in front of your eyes. All Internet data transfers utilize this sort of client/server relationship.
+
+4) Practice Some Command-Line Basics
+The Command Line can be intimidating at first glance. It is often featured in movies as a cryptic black screen with incomprehensible text, numbers, and symbols scrolling by. It is usually associated with an evil hacker or genius techie sidekick.
+
+The truth is that it doesn’t take a genius to use or understand the command line. In fact, it allows us to perform many of the same tasks that we are comfortable doing via a point-and-click mouse.
+
+The main difference is that it primarily accepts input via the keyboard, which can speed up inputs significantly once you get the hang of it.
+
+You can use the Command Line to browse through folders, list a folder’s contents, create new folders, copy and move files, delete files, execute programs, and much more. The window in which you can type commands on the Command Line is called a terminal.
+
+Let's walk through a short tutorial of basic navigation commands that will give you a feel for working on the command line.
+
+Once you open your terminal, a typical first question is "Where am I"? We can use the pwd command (which stands for "Print Working Directory") to figure that out. It outputs our current location in the file system which tells us which folder we are currently in.
