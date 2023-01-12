@@ -10,10 +10,11 @@ public class Class5_HashMap_Q2 {
         myFavSongs.put("Michl", "Die Trying");
 
         System.out.print("{");
-        for (String i : myFavSongs.keySet()) {
-            System.out.print(i.trim());
-            System.out.print(" " + i + ":" + myFavSongs.get(i));
+        for (String key : myFavSongs.keySet()) {
+            // System.out.print(i.trim());
+            System.out.print(" " + key + ":" + myFavSongs.get(key) + ",");
         }
         System.out.print("}");
+        System.out.println();
     }
 }
